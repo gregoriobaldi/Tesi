@@ -1,0 +1,149 @@
+{
+  "sheet_name": "Sheet1",
+  "cells": {
+    "0,0": {
+      "raw": "Sales Report",
+      "value": "Sales Report",
+      "format": {
+        "bold": true
+      },
+      "error": null
+    },
+    "2,0": {
+      "raw": "Product",
+      "value": "Product",
+      "format": {
+        "bold": true
+      },
+      "error": null
+    },
+    "2,1": {
+      "raw": "Quantity",
+      "value": "Quantity",
+      "format": {
+        "bold": true
+      },
+      "error": null
+    },
+    "2,2": {
+      "raw": "Price",
+      "value": "Price",
+      "format": {
+        "bold": true
+      },
+      "error": null
+    },
+    "2,3": {
+      "raw": "Total",
+      "value": "Total",
+      "format": {
+        "bold": true
+      },
+      "error": null
+    },
+    "3,0": {
+      "raw": "Laptops",
+      "value": "Laptops",
+      "format": {},
+      "error": null
+    },
+    "3,1": {
+      "raw": "5",
+      "value": 5.0,
+      "format": {},
+      "error": null
+    },
+    "3,2": {
+      "raw": "999.99",
+      "value": 999.99,
+      "format": {
+        "precision": 2
+      },
+      "error": null
+    },
+    "3,3": {
+      "raw": "=B4*C4",
+      "value": "#ERROR!",
+      "format": {
+        "precision": 2,
+        "bold": true
+      },
+      "error": "#ERROR!"
+    },
+    "4,0": {
+      "raw": "Mice",
+      "value": "Mice",
+      "format": {},
+      "error": null
+    },
+    "4,1": {
+      "raw": "20",
+      "value": 20.0,
+      "format": {},
+      "error": null
+    },
+    "4,2": {
+      "raw": "25.50",
+      "value": 25.5,
+      "format": {
+        "precision": 2
+      },
+      "error": null
+    },
+    "4,3": {
+      "raw": "=B5*C5",
+      "value": "#ERROR!",
+      "format": {
+        "precision": 2
+      },
+      "error": "#ERROR!"
+    },
+    "5,0": {
+      "raw": "Keyboards",
+      "value": "Keyboards",
+      "format": {},
+      "error": null
+    },
+    "5,1": {
+      "raw": "8",
+      "value": 8.0,
+      "format": {},
+      "error": null
+    },
+    "5,2": {
+      "raw": "75.00",
+      "value": 75.0,
+      "format": {
+        "precision": 2
+      },
+      "error": null
+    },
+    "5,3": {
+      "raw": "=B6*C6",
+      "value": "#ERROR!",
+      "format": {
+        "precision": 2
+      },
+      "error": "#ERROR!"
+    },
+    "7,2": {
+      "raw": "Grand Total:",
+      "value": "Grand Total:",
+      "format": {
+        "bold": true
+      },
+      "error": null
+    },
+    "7,3": {
+      "raw": "=SUM(D4:D6)",
+      "value": "#ERROR!",
+      "format": {
+        "bold": true,
+        "precision": 2
+      },
+      "error": "#ERROR!"
+    }
+  },
+  "max_row": 7,
+  "max_col": 3
+}

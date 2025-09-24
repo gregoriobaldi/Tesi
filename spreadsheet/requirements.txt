@@ -1,0 +1,6 @@
+# Standard library modules used (no external dependencies required)
+# tkinter - GUI toolkit (built-in)
+# json - data persistence (built-in)
+# csv - CSV import/export (built-in)
+# re - regular expressions for find/replace (built-in)
+# typing - type hints (built-in in Python 3.5+)
