@@ -63,12 +63,9 @@
     },
     "3,3": {
       "raw": "=B4*C4",
-      "value": "#ERROR!",
-      "format": {
-        "precision": 2,
-        "bold": true
-      },
-      "error": "#ERROR!"
+      "value": 4999.95,
+      "format": {},
+      "error": null
     },
     "4,0": {
       "raw": "Mice",
@@ -92,11 +89,9 @@
     },
     "4,3": {
       "raw": "=B5*C5",
-      "value": "#ERROR!",
-      "format": {
-        "precision": 2
-      },
-      "error": "#ERROR!"
+      "value": 510.0,
+      "format": {},
+      "error": null
     },
     "5,0": {
       "raw": "Keyboards",
@@ -120,28 +115,21 @@
     },
     "5,3": {
       "raw": "=B6*C6",
-      "value": "#ERROR!",
-      "format": {
-        "precision": 2
-      },
-      "error": "#ERROR!"
+      "value": 600.0,
+      "format": {},
+      "error": null
     },
     "7,2": {
-      "raw": "Grand Total:",
-      "value": "Grand Total:",
-      "format": {
-        "bold": true
-      },
+      "raw": "Grand Total",
+      "value": "Grand Total",
+      "format": {},
       "error": null
     },
     "7,3": {
       "raw": "=SUM(D4:D6)",
-      "value": "#ERROR!",
-      "format": {
-        "bold": true,
-        "precision": 2
-      },
-      "error": "#ERROR!"
+      "value": 6109.95,
+      "format": {},
+      "error": null
     }
   },
   "max_row": 7,
