@@ -1,0 +1,3 @@
+@echo off
+echo Starting Spreadsheet Lite...
+python main.py
