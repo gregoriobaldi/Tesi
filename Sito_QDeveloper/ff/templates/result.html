@@ -1,0 +1,11 @@
+{% extends "base.html" %}
+{% block title %}Result{% endblock %}
+{% block content %}
+<h2>Result for {{ result.number }}</h2>
+<ul>
+    <li>Even: {{ 'Yes' if result.even else 'No' }}</li>
+    <li>Prime: {{ 'Yes' if result.prime else 'No' }}</li>
+    <li>Factorial: {{ result.factorial }}</li>
+</ul>
+<a href="{{ url_for('index') }}">Try another number</a>
+{% endblock %}

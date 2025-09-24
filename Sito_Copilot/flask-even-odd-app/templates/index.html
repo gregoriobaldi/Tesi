@@ -1,0 +1,18 @@
+{% extends 'base.html' %}
+
+{% block title %}Even or Odd Checker{% endblock %}
+
+{% block content %}
+    <h1>Even or Odd Checker</h1>
+    <!-- Form for integer input with validation -->
+    <form method="POST">
+        <label for="number">Enter an integer:</label>
+        <input type="number" id="number" name="number" required>
+        <button type="submit">Analyze Number</button>
+    </form>
+
+    <!-- Display error messages if validation fails -->
+    {% if error %}
+        <div class="error">{{ error }}</div>
+    {% endif %}
+{% endblock %}

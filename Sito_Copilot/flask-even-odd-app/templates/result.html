@@ -1,0 +1,21 @@
+{% extends 'base.html' %}
+
+{% block title %}Analysis Results{% endblock %}
+
+{% block content %}
+    <h1>Number Analysis Results</h1>
+    
+    <!-- Display analysis results in structured format -->
+    <div class="results">
+        <h2>Number: {{ result.number }}</h2>
+        <p><strong>Even or Odd:</strong> {{ result.even_odd|title }}</p>
+        <p><strong>Factorial:</strong> {{ result.factorial }}</p>
+        <p><strong>Prime:</strong> {{ "Yes" if result.prime else "No" }}</p>
+    </div>
+
+    <!-- Navigation back to home -->
+    <div class="actions">
+        <a href="{{ url_for('home') }}" class="button">Analyze Another Number</a>
+        <a href="{{ url_for('show_history') }}" class="button">View History</a>
+    </div>
+{% endblock %}

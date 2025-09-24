@@ -1,0 +1,27 @@
+{% extends 'base.html' %}
+
+{% block title %}History{% endblock %}
+
+{% block content %}
+    <h1>History of Inputs</h1>
+    <table>
+        <thead>
+            <tr>
+                <th>Input</th>
+                <th>Even/Odd</th>
+                <th>Factorial</th>
+                <th>Prime</th>
+            </tr>
+        </thead>
+        <tbody>
+            {% for entry in history %}
+            <tr>
+                <td>{{ entry.number }}</td>
+                <td>{{ entry.even_odd }}</td>
+                <td>{{ entry.factorial }}</td>
+                <td>{{ entry.prime }}</td>
+            </tr>
+            {% endfor %}
+        </tbody>
+    </table>
+{% endblock %}

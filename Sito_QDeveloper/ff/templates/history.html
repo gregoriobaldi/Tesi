@@ -1,0 +1,25 @@
+{% extends "base.html" %}
+{% block title %}History{% endblock %}
+{% block content %}
+<h2>Last 10 Inputs</h2>
+{% if history %}
+<table>
+    <tr>
+        <th>Number</th>
+        <th>Even</th>
+        <th>Prime</th>
+        <th>Factorial</th>
+    </tr>
+    {% for entry in history %}
+    <tr>
+        <td>{{ entry.number }}</td>
+        <td>{{ 'Yes' if entry.even else 'No' }}</td>
+        <td>{{ 'Yes' if entry.prime else 'No' }}</td>
+        <td>{{ entry.factorial }}</td>
+    </tr>
+    {% endfor %}
+</table>
+{% else %}
+<p>No history yet.</p>
+{% endif %}
+{% endblock %}
